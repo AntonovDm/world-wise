@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       <p className={styles.copyright}>
-        $copy; Copyrigth {new Date().getFullYear()} by WorldWise Inc.
+        &copy; Copyrigth {new Date().getFullYear()} by WorldWise Inc.
       </p>
     </footer>
   )

@@ -8,8 +8,6 @@ function Map() {
   const lat = searchParams.get('lat')
   const lng = searchParams.get('lng')
 
-  console.log(setSearchParams)
-
   return (
     <div
       className={styles.mapContainer}
@@ -19,6 +17,13 @@ function Map() {
       <h1>
         Position: {lat} {lng}
       </h1>
+      <button
+        onClick={() => {
+          setSearchParams({ lat: 23, lng: 50 })
+        }}
+      >
+        Change pos
+      </button>
     </div>
   )
 }
