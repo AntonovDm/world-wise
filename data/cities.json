@@ -13,16 +13,16 @@
       "id": 73930385
     },
     {
-      "cityName": "Vorontsovo",
-      "country": "Russian Federation (the)",
-      "emoji": "🇷🇺",
-      "date": "2023-08-17T17:48:08.374Z",
-      "notes": "TEST",
+      "cityName": "Minsk",
+      "country": "Belarus",
+      "emoji": "🇧🇾",
+      "date": "2023-08-17T20:08:39.053Z",
+      "notes": "test",
       "position": {
-        "lat": "57.1958078966064",
-        "lng": "28.674316406250004"
+        "lat": "53.904338156274704",
+        "lng": "27.5537109375"
       },
-      "id": 98443198
+      "id": 98443200
     }
   ]
 }
