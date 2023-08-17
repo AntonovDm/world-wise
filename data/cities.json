@@ -35,6 +35,54 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Vorontsovo",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2023-08-17T17:48:08.374Z",
+      "notes": "TEST",
+      "position": {
+        "lat": "57.1958078966064",
+        "lng": "28.674316406250004"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Moshki",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2023-08-17T17:51:02.290Z",
+      "notes": "",
+      "position": {
+        "lat": "56.78884524518923",
+        "lng": "34.89257812500001"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Vetlanda",
+      "country": "Sweden",
+      "emoji": "🇸🇪",
+      "date": "2023-08-17T17:54:32.786Z",
+      "notes": "",
+      "position": {
+        "lat": "57.36208986154897",
+        "lng": "15.490722656250002"
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "Stockholm",
+      "country": "Sweden",
+      "emoji": "🇸🇪",
+      "date": "2023-08-17T18:06:25.363Z",
+      "notes": "TEST",
+      "position": {
+        "lat": "59.28833169203345",
+        "lng": "18.105468750000004"
+      },
+      "id": 98443201
     }
   ]
 }
