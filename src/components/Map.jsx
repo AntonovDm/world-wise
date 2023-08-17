@@ -10,22 +10,21 @@ import styles from './Map.module.css'
 import PropTypes from 'prop-types'
 import { useEffect, useState } from 'react'
 import { useCities } from '../contexts/CitiesContex'
-import { useNavigate, useSearchParams } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { useGeolocation } from '../hooks/useGeolocation'
 import Button from './Button'
+import { useUrlPosition } from '../hooks/useUrlPosition'
 
 function Map() {
   const { cities } = useCities()
   const [mapPosition, setMapPosition] = useState([55, 38])
-  const [searchParams] = useSearchParams()
   const {
     isLoading: isLoadingPosition,
     position: geolocationPosition,
     getPosition,
   } = useGeolocation()
 
-  const mapLat = searchParams.get('lat')
-  const mapLng = searchParams.get('lng')
+  const [mapLat, mapLng] = useUrlPosition()
 
   useEffect(
     function () {
@@ -95,7 +94,6 @@ function DetectClick() {
   const navigate = useNavigate()
 
   useMapEvent({
-    // eslint-disable-next-line no-unused-vars
     click: (e) => navigate(`form?lat=${e.latlng.lat}&lng=${e.latlng.lng}`),
   })
 }
