@@ -1,28 +1,40 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
+      "cityName": "Moscow",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2023-08-25T16:13:38.332Z",
+      "notes": "",
       "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
+        "lat": "55.751849391735284",
+        "lng": "37.66113281250001"
       },
-      "id": 73930385
+      "id": 98443201
+    },
+    {
+      "cityName": "Odintsovo",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2023-08-25T16:13:43.982Z",
+      "notes": "",
+      "position": {
+        "lat": "55.66829135900412",
+        "lng": "37.27111816406251"
+      },
+      "id": 98443202
     },
     {
       "cityName": "Minsk",
       "country": "Belarus",
       "emoji": "🇧🇾",
-      "date": "2023-08-17T20:08:39.053Z",
-      "notes": "test",
+      "date": "2023-08-25T16:14:08.229Z",
+      "notes": "",
       "position": {
-        "lat": "53.904338156274704",
-        "lng": "27.5537109375"
+        "lat": "53.87844040332883",
+        "lng": "27.575683593750004"
       },
-      "id": 98443200
+      "id": 98443203
     }
   ]
 }
